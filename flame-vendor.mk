@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/citadel/FIH-RC1-dev-fusing.ec.bin
 
 PRODUCT_PACKAGES += \
+    MotionSenseBridgePrebuilt \
     PixelCameraServicesFlame \
     VZWAPNLib \
     uimremoteclient \
@@ -94,6 +95,7 @@ PRODUCT_PACKAGES += \
     HbmSVManager \
     MyVerizonServices \
     OBDM_Permissions \
+    OsloFeedback \
     PixelNfc \
     RilConfigService \
     grilservice \
